@@ -1,12 +1,17 @@
 {
-    "name": "kdion4891/laravel-livewire-tables",
+    "name": "mvehar/laravel-livewire-tables",
     "description": "A dynamic, responsive Laravel Livewire table component with searching, sorting, checkboxes, and pagination.",
-    "homepage": "https://github.com/kdion4891/laravel-livewire-tables",
+    "homepage": "https://github.com/mvehar/laravel-livewire-tables",
     "license": "MIT",
     "authors": [
         {
             "name": "Kevin Dion",
             "email": "kdion4891@icloud.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Matej Vehar",
+            "email": "m.vehar@gmail.com",
             "role": "Developer"
         }
     ],

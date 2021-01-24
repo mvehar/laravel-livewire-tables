@@ -63,7 +63,7 @@
                                 @foreach($columns as $column)
                                     <td class="align-middle {{ $this->tdClass($column->attribute, $value = Arr::get($model->toArray(), $column->attribute)) }}">
                                         @if($column->view)
-                                            @include($column->view)
+                                            @include($column->view, $column->viewAttributes)
                                         @else
                                             {{ $value }}
                                         @endif

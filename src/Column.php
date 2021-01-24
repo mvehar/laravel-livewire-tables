@@ -11,6 +11,7 @@ use Illuminate\Support\Str;
  * @property boolean $sortable
  * @property callable $sortCallback
  * @property string $view
+ * @property array $viewAttributes
  */
 class Column
 {
@@ -55,9 +56,10 @@ class Column
         return $this;
     }
 
-    public function view($view)
+    public function view($view, $attributes = [])
     {
         $this->view = $view;
+        $this->viewAttributes = $attributes;
         return $this;
     }
 }
